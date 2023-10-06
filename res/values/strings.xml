@@ -5,7 +5,4 @@
     <!-- Welcome message -->
     <string name="welcome_message">welcome_message</string>
 
-    <!-- Custom wallpaper [DO NOT TRANSLATE] -->
-    <string name="setup_wallpaper_component" translatable="false">com.android.systemui/com.android.systemui.ImageWallpaper</string>
-
 </resources>
