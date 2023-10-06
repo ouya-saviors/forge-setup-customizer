@@ -4,6 +4,7 @@
 /gradle/
 /gradle.properties
 /local.properties
+/README.html
+/*.apk
 
 /app/build
-
