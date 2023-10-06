@@ -6,7 +6,7 @@ LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/priv-app
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
-LOCAL_PACKAGE_NAME := TvSetupCustomizer
+LOCAL_PACKAGE_NAME := ForgeSetupCustomizer
 
 LOCAL_SDK_VERSION := current
 
