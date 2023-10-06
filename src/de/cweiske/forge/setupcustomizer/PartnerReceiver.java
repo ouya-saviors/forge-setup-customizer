@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.tvsetup.partnercustomizer;
+package de.cweiske.forge.setupcustomizer;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
