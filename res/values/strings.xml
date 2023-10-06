@@ -3,6 +3,6 @@
     <string name="app_label">ForgeSetupCustomizer</string>
 
     <!-- Welcome message -->
-    <string name="welcome_message">welcome_message</string>
+    <string name="welcome_message">Welcome savior!</string>
 
 </resources>
