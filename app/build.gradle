@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+    archivesBaseName = "ForgeSetupCustomizer"
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "de.cweiske.forge.setupcustomizer"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+if (project.hasProperty("signingconfigfile")
+        && new File(project.property("signingconfigfile")).exists()
+) {
+    apply from: project.property("signingconfigfile");
+}
