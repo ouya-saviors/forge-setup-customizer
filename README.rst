@@ -6,7 +6,7 @@ Razer Forge TV setup.
 
 Installation
 ------------
-1. Use ``fastboot`` to boot a fastboot-enabled twrp so we have unrestricted
+1. Use ``fastboot`` to boot a `fastboot-enabled TWRP`__ so we have unrestricted
    ``adb`` root access.
 2. Mount the ``/system`` partition::
 
@@ -24,6 +24,8 @@ Installation
 Now the welcome message is "Welcome savior!" instead of "Welcome",
 and Google Sign-In can be skipped.
 
+
+__ http://archive.cweiske.de/binary/#forge-twrp
 
 
 Notes
